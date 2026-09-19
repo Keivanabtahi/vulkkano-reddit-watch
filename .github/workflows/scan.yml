@@ -14,45 +14,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Scan subreddits for Vulkkano mentions
+      - name: Scan subreddits for Vulkkano mentions via Apify
         env:
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
           set -euo pipefail
 
-          TOKEN=$(curl -sS -X POST https://www.reddit.com/api/v1/access_token \
-            -A "VulkkanoMentionBot/1.0 (github-actions relay)" \
-            -u "${REDDIT_CLIENT_ID}:${REDDIT_CLIENT_SECRET}" \
-            -d "grant_type=client_credentials" | jq -r .access_token)
-
-          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
-            echo "No se pudo obtener el token de Reddit. Revisa los secrets REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET."
-            exit 1
-          fi
-
           SUBREDDITS=(audiophile BudgetAudiophile hometheater headphones audioengineering pcgaming hardware buildapc Soundbars Bluetooth_Speakers Edifier)
+          TERMS=(vulkkano vulkano)
 
           echo "[]" > /tmp/results.json
 
           for sub in "${SUBREDDITS[@]}"; do
-            RESP=$(curl -sS -A "VulkkanoMentionBot/1.0 (github-actions relay)" \
-              -H "Authorization: Bearer ${TOKEN}" \
-              "https://oauth.reddit.com/r/${sub}/search?q=vulkkano%20OR%20vulkano&restrict_sr=1&sort=new&limit=25" || echo '{}')
+            for term in "${TERMS[@]}"; do
+              RESP=$(curl -sS -X POST \
+                "https://api.apify.com/v2/actors/codingfrontend~reddit-search-scraper/run-sync-get-dataset-items?token=${APIFY_TOKEN}" \
+                -H "Content-Type: application/json" \
+                -d "{\"searchQuery\": \"${term}\", \"subreddit\": \"${sub}\", \"sortBy\": \"new\", \"maxItems\": 25, \"maxPages\": 2}" \
+                || echo '[]')
 
-            echo "$RESP" | jq --arg sub "$sub" '[((.data // {}).children // [])[] | .data | {
-                subreddit: $sub,
-                id: .id,
-                title: .title,
-                url: ("https://www.reddit.com" + .permalink),
-                selftext: ((.selftext // "")[0:400]),
-                created_utc: .created_utc,
-                author: .author
-              }]' > /tmp/sub_result.json || echo "[]" > /tmp/sub_result.json
+              # No reshaping here on purpose: keep whatever fields the actor returns
+              # (raw), tagged with which subreddit/term produced it. The consumer
+              # (the Claude routine reading this file) interprets the raw shape.
+              echo "$RESP" | jq --arg sub "$sub" --arg term "$term" \
+                'if type == "array" then [ .[] | {subreddit: $sub, term: $term, raw: .} ] else [] end' \
+                > /tmp/sub_result.json || echo "[]" > /tmp/sub_result.json
 
-            jq -s '.[0] + .[1]' /tmp/results.json /tmp/sub_result.json > /tmp/merged.json
-            mv /tmp/merged.json /tmp/results.json
-            sleep 1
+              jq -s '.[0] + .[1]' /tmp/results.json /tmp/sub_result.json > /tmp/merged.json
+              mv /tmp/merged.json /tmp/results.json
+              sleep 1
+            done
           done
 
           jq --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '{checkedAt: $ts, mentions: .}' /tmp/results.json > data/reddit-mentions.json
