@@ -1,0 +1,67 @@
+name: Reddit mention scan
+
+on:
+  schedule:
+    - cron: '45 5 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan subreddits for Vulkkano mentions
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+
+          TOKEN=$(curl -sS -X POST https://www.reddit.com/api/v1/access_token \
+            -A "VulkkanoMentionBot/1.0 (github-actions relay)" \
+            -u "${REDDIT_CLIENT_ID}:${REDDIT_CLIENT_SECRET}" \
+            -d "grant_type=client_credentials" | jq -r .access_token)
+
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
+            echo "No se pudo obtener el token de Reddit. Revisa los secrets REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET."
+            exit 1
+          fi
+
+          SUBREDDITS=(audiophile BudgetAudiophile hometheater headphones audioengineering pcgaming hardware buildapc Soundbars Bluetooth_Speakers Edifier)
+
+          echo "[]" > /tmp/results.json
+
+          for sub in "${SUBREDDITS[@]}"; do
+            RESP=$(curl -sS -A "VulkkanoMentionBot/1.0 (github-actions relay)" \
+              -H "Authorization: Bearer ${TOKEN}" \
+              "https://oauth.reddit.com/r/${sub}/search?q=vulkkano%20OR%20vulkano&restrict_sr=1&sort=new&limit=25" || echo '{}')
+
+            echo "$RESP" | jq --arg sub "$sub" '[((.data // {}).children // [])[] | .data | {
+                subreddit: $sub,
+                id: .id,
+                title: .title,
+                url: ("https://www.reddit.com" + .permalink),
+                selftext: ((.selftext // "")[0:400]),
+                created_utc: .created_utc,
+                author: .author
+              }]' > /tmp/sub_result.json || echo "[]" > /tmp/sub_result.json
+
+            jq -s '.[0] + .[1]' /tmp/results.json /tmp/sub_result.json > /tmp/merged.json
+            mv /tmp/merged.json /tmp/results.json
+            sleep 1
+          done
+
+          jq --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '{checkedAt: $ts, mentions: .}' /tmp/results.json > data/reddit-mentions.json
+          cat data/reddit-mentions.json
+
+      - name: Commit results
+        run: |
+          git config user.name "vulkkano-reddit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/reddit-mentions.json
+          git diff --cached --quiet && echo "Sin cambios" || git commit -m "Actualiza menciones de Reddit $(date -u +%F)"
+          git push
