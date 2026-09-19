@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Scan subreddits for Vulkkano mentions via Apify
+      - name: Scan Reddit for Vulkkano mentions via Apify
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
@@ -24,34 +24,24 @@ jobs:
             "https://api.apify.com/v2/acts/automation-lab~reddit-scraper/run-sync-get-dataset-items?token=${APIFY_TOKEN}" \
             -H "Content-Type: application/json" \
             -d '{
-              "urls": [
-                "https://www.reddit.com/r/audiophile/",
-                "https://www.reddit.com/r/BudgetAudiophile/",
-                "https://www.reddit.com/r/hometheater/",
-                "https://www.reddit.com/r/headphones/",
-                "https://www.reddit.com/r/audioengineering/",
-                "https://www.reddit.com/r/pcgaming/",
-                "https://www.reddit.com/r/hardware/",
-                "https://www.reddit.com/r/buildapc/",
-                "https://www.reddit.com/r/Soundbars/",
-                "https://www.reddit.com/r/Bluetooth_Speakers/",
-                "https://www.reddit.com/r/Edifier/"
-              ],
+              "searchQuery": "vulkkano OR vulkano",
               "filterKeywords": ["vulkkano", "vulkano"],
-              "maxPostsPerSource": 75,
+              "filterKeywordMode": "any",
               "sort": "new",
-              "includeComments": false
+              "timeFilter": "all",
+              "maxPostsPerSource": 50,
+              "includeComments": false,
+              "commentContextMode": false,
+              "maxCommentsPerPost": 10,
+              "deduplicatePosts": true
             }' || echo '[]')
 
-          # No reshaping on purpose: keep whatever fields the actor actually returns,
-          # raw. The consumer (the Claude routine reading this file) interprets the shape.
-          # This first real run's output is what we'll use to calibrate field names.
-          echo "$RESP" | jq 'if type == "array" then [ .[] | {raw: .} ] else [{raw: .}] end' \
-            > /tmp/results.json || echo "$RESP" > /tmp/results.json
-
           mkdir -p data
-          jq --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '{checkedAt: $ts, mentions: .}' /tmp/results.json > data/reddit-mentions.json 2>/dev/null || \
-            echo "{\"checkedAt\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"error\": true, \"rawResponse\": $(cat /tmp/results.json)}" > data/reddit-mentions.json
+          if echo "$RESP" | jq empty 2>/dev/null; then
+            echo "$RESP" | jq --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '{checkedAt: $ts, mentions: .}' > data/reddit-mentions.json
+          else
+            echo "{\"checkedAt\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"error\": true, \"mentions\": []}" > data/reddit-mentions.json
+          fi
           cat data/reddit-mentions.json
 
       - name: Commit results
