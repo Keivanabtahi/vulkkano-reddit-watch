@@ -1,23 +1,9 @@
 {
-  "checkedAt": "2026-10-07T12:00:00Z",
-  "mentions": [
-    {
-      "type": "target-status",
-      "id": "target-status:c2VhcmNoOnZ1bGtrYW5vIE9SIHZ1bGthbm86OnZ1bGtrYW5v",
-      "targetType": "search",
-      "targetLabel": "vulkkano OR vulkano",
-      "status": "empty_or_unavailable",
-      "records": 0,
-      "query": "vulkkano OR vulkano",
-      "subreddit": "",
-      "sort": "new",
-      "timeFilter": "all",
-      "message": "No Reddit posts or comments were returned for this target. The target is reported explicitly instead of failing with silent zero output; broaden the query, expand the time filter, or try a different Reddit URL if you expect results.",
-      "scrapedAt": "2026-10-07T11:59:59.864Z",
-      "warnings": [
-        "Reddit public pages/RSS can return no accessible records for very narrow queries, invalid/restricted/deleted communities, deleted posts, private profiles, or temporary rate limits.",
-        "This diagnostic record is emitted when the run would otherwise have zero dataset items, so API users receive an explicit empty/unavailable classification instead of a hard failure."
-      ]
+  "checkedAt": "2026-10-08T12:13:47Z",
+  "mentions": {
+    "error": {
+      "type": "platform-feature-disabled",
+      "message": "Monthly usage hard limit exceeded"
     }
-  ]
+  }
 }
