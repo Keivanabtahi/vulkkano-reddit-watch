@@ -1,6 +1,37 @@
 {
-  "checkedAt": "2026-10-20T10:24:23Z",
+  "checkedAt": "2026-10-21T10:34:34Z",
   "mentions": [
+    {
+      "type": "post",
+      "id": "1xbehwu",
+      "title": "Novaĵo-konversacio de 2026/10/21",
+      "author": "Icy_Tank_4739",
+      "subreddit": "EsperantoBarato",
+      "score": 0,
+      "upvoteRatio": 0,
+      "numComments": 0,
+      "sourceCommentCount": null,
+      "createdAt": "2026-10-21T10:34:31.876Z",
+      "url": "https://www.reddit.com/r/EsperantoBarato/comments/1xbehwu/novaĵokonversacio_de_20261021/",
+      "permalink": "https://www.reddit.com/r/EsperantoBarato/comments/1xbehwu/novaĵokonversacio_de_20261021/",
+      "selfText": "Nandinio - Saluton al ĉiuj! Mi bonvenigas vin al la hodiaŭa novaĵelsendo. Saluton, Kavjao! Hodiaŭ oni aŭdis treege bizaran novaĵon. En iu hejmo en Barato, familio de kobroj eniris la kuirfornon de la kuirejo. Dum la kuirado tiuj serpentoj estis ekviditaj, sed serpento-savisto ilin sekure forigis. Nandini: Greetings to you all. Welcome to today's news program. Hello, Kavya! Today a very bizarre piece of news was heard. In a house in India, a family of cobras entered the kitchen stove. While cooking food, those snakes were spotted, but they were safely removed by a snake rescuer. Kavjao - Saluton, Nandinio! Ve, kiel terure! Loĝado de kobroj en la kuirforno ja iĝis mortdanĝera, sed feliĉe ĉiuj saviĝis! Tamen, aliflanke mi eksciis pri la mirinda kuraĝo de iu liveristo. Li alvenis ĉe hejmo por transdoni varon, kaj tie li ekvidis la kuirejon en flamoj. Li tuj flankenmetis la pakaĵon, enkuris la domon kaj mem estingis la fajron! Kavya: Hello Nandini! Oh, how terrifying this is! Cobras residing in a stove was indeed life-threatening; luckily, all were saved! But on the other hand, I learned of the astonishing courage of a delivery agent. He arrived at a house to deliver an item. There, a fire was seen blazing in the kitchen. Dropping the parcel and rushing inside the house, he extinguished the fire himself! Nandinio - Tre laŭdinde! La liveristo fariĝis fajrobrigadisto en la momento de danĝero! Parolante pri fajro, mi legis alian kuriozan novaĵon pri la terinterno. Sub la vulkano Masaja en Nikaragvo, du subteraj magmaj rezervujoj faris reciprokan ŝnurtiradon. Satelitoj rimarkis, ke dum unu zono malaltiĝis, la apuda kontraŭe leviĝis! Nandini: Highly praiseworthy! The delivery person became a firefighter in an emergency! Speaking of fire, I also read a bizarre piece of geology-related news. Beneath the earth at Nicaragua's Masaya volcano, two magma chambers pulled against each other. Satellites observed that one part sank down while the other rose up! Kavjao - Vere, tia ŝnurtira ludo de la naturo estas miriga! Sed post tiu subtera kuriozaĵo, hodiaŭ en la zoologio oni priskribis ankaŭ ridigan muŝon. En Aŭstralio, tigokula muŝo estis nomumita kiel la „Mirinda Insekto de la Jaro“. Ĉe la masklo, la okuloj sidas sur tiom distancaj flankaj tigoj, ke ĝiaj vido kaj flugkapablo tute difektiĝis! Malgraŭ tio, ĝi sidas sur putriĝintaj fruktoj kaj faras bizaran dancon por amindumi! Kavya: True, this \"tug-of-war\" of nature is exceedingly astonishing! After the underground marvel, today in zoology a hilarious fly was also described. In Australia, a stalk-eyed fly was nominated as the 'Wondrous Insect of the Year'. That fly's eyes are set on stalks placed so far apart that its vision and flight are impaired! Yet, perching on rotten fruit, it performed a bizarre courtship dance! Nandinio - Kia mirindaĵo! Por la amo ĝi eĉ eltenas la pezon de tiuj grandegaj okuloj! Ho, la hodiaŭaj novaĵoj nin tre amuzis. La hodiaŭa elsendo finiĝis. Mi esprimas mian dankemon! Nandini: What a wonder! For the sake of love, even the burden of those giant eyes was endured! Oh, we were greatly entertained by today's news. Today's news broadcast has concluded. I offer my gratitude! submitted by /u/Icy_Tank_4739 to r/EsperantoBarato [link] [comments]",
+      "link": "https://www.reddit.com/r/EsperantoBarato/comments/1xbehwu/novaĵokonversacio_de_20261021/",
+      "domain": "reddit.com",
+      "isVideo": false,
+      "isSelf": true,
+      "isNSFW": false,
+      "isSpoiler": false,
+      "isStickied": false,
+      "thumbnail": "",
+      "linkFlairText": "",
+      "totalAwards": 0,
+      "subredditSubscribers": 0,
+      "imageUrls": [],
+      "scrapedAt": "2026-10-21T10:34:30.433Z",
+      "warnings": [
+        "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
+      ]
+    },
     {
       "type": "post",
       "id": "1x6ve2q",
@@ -11,7 +42,7 @@
       "upvoteRatio": 0,
       "numComments": 0,
       "sourceCommentCount": null,
-      "createdAt": "2026-10-20T10:24:21.179Z",
+      "createdAt": "2026-10-21T10:34:31.888Z",
       "url": "https://www.reddit.com/r/proceduralgeneration/comments/1x6ve2q/1m_particles_across_four_strange_attractors/",
       "permalink": "https://www.reddit.com/r/proceduralgeneration/comments/1x6ve2q/1m_particles_across_four_strange_attractors/",
       "selfText": "I've been building a Rust + Vulkan game engine (Vulkano + winit). This is the Lorenz attractor with 1,000,000 particles that all start inside a cube 0.000001 wide. How it works: - Every particle follows the real Lorenz equations (sigma = 10, rho = 28, beta = 8/3). - Plain f32 positions don't work here. Particles start about 1e-8 apart, but near the attractor one f32 step is about 2e-6, so a million particles collapse into a handful of points. Instead the CPU integrates one reference path in f64, and a GPU shader integrates each particle's tiny offset from it with RK4 (h = 0.005), using the exact difference f(r + d) - f(r). - Color comes from each particle's starting position, so you can watch neighbors get pulled onto opposite wings. The two circled at the end started side by side. - There are no interactions between particles, so the cost grows linearly with the count. It's not real time: live it runs at 9 FPS with 1M particles on an RTX 3060. Most of the frame goes to per-entity CPU work in the engine, which is what I'm optimizing next. The video was rendered offscreen at 4K, and the camera zoom is scripted to follow the spread. Source: lorenz_butterfly.rs (src/examples/lorenz_butterfly.rs) Run it: cargo run --release --features window --example lorenz_butterfly -- --side 100 submitted by /u/Serious_Scarcity7818 to r/proceduralgeneration [link] [comments]",
@@ -27,7 +58,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.889Z",
+      "scrapedAt": "2026-10-21T10:34:30.434Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -42,7 +73,7 @@
       "upvoteRatio": 0,
       "numComments": 0,
       "sourceCommentCount": null,
-      "createdAt": "2026-10-20T10:24:21.185Z",
+      "createdAt": "2026-10-21T10:34:31.893Z",
       "url": "https://www.reddit.com/r/RaidShadowLegends/comments/1x5wflw/has_vulkanos_been_nerfed_or_is_there_a_bug/",
       "permalink": "https://www.reddit.com/r/RaidShadowLegends/comments/1x5wflw/has_vulkanos_been_nerfed_or_is_there_a_bug/",
       "selfText": "running vulk with 6* blessing incinerate and a lvl 5 skull of treason and it just doesnt seem to do what it did before. this is not including mercurial, i have tried it on teams without 9pc merc submitted by /u/Gunty1 to r/RaidShadowLegends [link] [comments]",
@@ -58,7 +89,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.890Z",
+      "scrapedAt": "2026-10-21T10:34:30.434Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -73,7 +104,7 @@
       "upvoteRatio": 0,
       "numComments": 0,
       "sourceCommentCount": null,
-      "createdAt": "2026-10-20T10:24:21.187Z",
+      "createdAt": "2026-10-21T10:34:31.895Z",
       "url": "https://www.reddit.com/r/ClubicFR/comments/1x5k0s7/vulkkano_desk_des_petites_enceintes_qui_veulent/",
       "permalink": "https://www.reddit.com/r/ClubicFR/comments/1x5k0s7/vulkkano_desk_des_petites_enceintes_qui_veulent/",
       "selfText": "submitted by /u/r-humanoid to r/ClubicFR [link] [comments]",
@@ -89,7 +120,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.890Z",
+      "scrapedAt": "2026-10-21T10:34:30.434Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -104,7 +135,7 @@
       "upvoteRatio": 0,
       "numComments": 0,
       "sourceCommentCount": null,
-      "createdAt": "2026-10-20T10:24:21.189Z",
+      "createdAt": "2026-10-21T10:34:31.901Z",
       "url": "https://www.reddit.com/r/diyaudio/comments/1x4tw87/caisson_de_basse_clos_diy/",
       "permalink": "https://www.reddit.com/r/diyaudio/comments/1x4tw87/caisson_de_basse_clos_diy/",
       "selfText": "Caisson de basse clo en contreplaqué marine 2.4cm et face avant doublé avec peerless xxls12 et amplification behringer nx 3000d et bas ça change carrément du petit vulkkano sub 8 . La finition n'est vraiment pas top le matériel en m'a possession étant vraiment limité le prochain sera mieux fini 🤣 mais ça ronronne bien comme il faut un grave bien sec et percutant tout en descendant bien bas grâce au dsp du behringer . submitted by /u/JissTwo to r/diyaudio [link] [comments]",
@@ -120,7 +151,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.890Z",
+      "scrapedAt": "2026-10-21T10:34:30.434Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -135,7 +166,7 @@
       "upvoteRatio": 0,
       "numComments": 0,
       "sourceCommentCount": null,
-      "createdAt": "2026-10-20T10:24:21.191Z",
+      "createdAt": "2026-10-21T10:34:31.904Z",
       "url": "https://www.reddit.com/r/CaschysBlog/comments/1x4sp0i/vulkkano_desk_kompakte/",
       "permalink": "https://www.reddit.com/r/CaschysBlog/comments/1x4sp0i/vulkkano_desk_kompakte/",
       "selfText": "submitted by /u/caschy to r/CaschysBlog [link] [comments]",
@@ -151,7 +182,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.890Z",
+      "scrapedAt": "2026-10-21T10:34:30.434Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -182,7 +213,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.893Z",
+      "scrapedAt": "2026-10-21T10:34:30.436Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -213,7 +244,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.895Z",
+      "scrapedAt": "2026-10-21T10:34:30.441Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -244,7 +275,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.896Z",
+      "scrapedAt": "2026-10-21T10:34:30.442Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -275,7 +306,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.897Z",
+      "scrapedAt": "2026-10-21T10:34:30.443Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -306,7 +337,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.897Z",
+      "scrapedAt": "2026-10-21T10:34:30.443Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -337,7 +368,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.904Z",
+      "scrapedAt": "2026-10-21T10:34:30.443Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -368,7 +399,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.904Z",
+      "scrapedAt": "2026-10-21T10:34:30.444Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -399,7 +430,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.904Z",
+      "scrapedAt": "2026-10-21T10:34:30.444Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -430,7 +461,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.905Z",
+      "scrapedAt": "2026-10-21T10:34:30.448Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -461,7 +492,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.905Z",
+      "scrapedAt": "2026-10-21T10:34:30.448Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -492,7 +523,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.905Z",
+      "scrapedAt": "2026-10-21T10:34:30.448Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -523,7 +554,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.906Z",
+      "scrapedAt": "2026-10-21T10:34:30.449Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -554,7 +585,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.906Z",
+      "scrapedAt": "2026-10-21T10:34:30.449Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -585,7 +616,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.908Z",
+      "scrapedAt": "2026-10-21T10:34:30.451Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -616,7 +647,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.908Z",
+      "scrapedAt": "2026-10-21T10:34:30.452Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -647,7 +678,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.908Z",
+      "scrapedAt": "2026-10-21T10:34:30.452Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -678,7 +709,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.909Z",
+      "scrapedAt": "2026-10-21T10:34:30.452Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -709,7 +740,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.909Z",
+      "scrapedAt": "2026-10-21T10:34:30.452Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -740,7 +771,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.910Z",
+      "scrapedAt": "2026-10-21T10:34:30.453Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -771,7 +802,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.910Z",
+      "scrapedAt": "2026-10-21T10:34:30.453Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -802,7 +833,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.910Z",
+      "scrapedAt": "2026-10-21T10:34:30.453Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -833,7 +864,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.910Z",
+      "scrapedAt": "2026-10-21T10:34:30.454Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -864,7 +895,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.910Z",
+      "scrapedAt": "2026-10-21T10:34:30.454Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -895,7 +926,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.911Z",
+      "scrapedAt": "2026-10-21T10:34:30.454Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -926,7 +957,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.913Z",
+      "scrapedAt": "2026-10-21T10:34:30.455Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -957,7 +988,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.913Z",
+      "scrapedAt": "2026-10-21T10:34:30.455Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
@@ -988,38 +1019,7 @@
       "totalAwards": 0,
       "subredditSubscribers": 0,
       "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.913Z",
-      "warnings": [
-        "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
-      ]
-    },
-    {
-      "type": "post",
-      "id": "1sy125i",
-      "title": "[help] my RTX 5070 keeps crashing (nvlddmkm tdr error) windows 11 pro",
-      "author": "trassh_s",
-      "subreddit": "pcmasterrace",
-      "score": 0,
-      "upvoteRatio": 0,
-      "numComments": 0,
-      "sourceCommentCount": null,
-      "createdAt": "2026-04-28T13:12:21.000Z",
-      "url": "https://www.reddit.com/r/pcmasterrace/comments/1sy125i/help_my_rtx_5070_keeps_crashing_nvlddmkm_tdr/",
-      "permalink": "https://www.reddit.com/r/pcmasterrace/comments/1sy125i/help_my_rtx_5070_keeps_crashing_nvlddmkm_tdr/",
-      "selfText": "Hi everyone. I've been dealing with system instability for months and I'm running out of ideas. I hope someone here has experienced something similar. **Full Specifications:** - **CPU:** AMD Ryzen 7 7700X - **GPU:** ASUS Prime RTX 5070 12 GB GDDR7 - **Motherboard:** ASUS TUF Gaming B650E-Plus WiFi (DDR5, PCIe 5.0) - **RAM:** T-Force Delta R DDR5 16 GB (2x8 GB) 6000 MHz CL38 - **SSD:** Kingston NV3 1 TB M.2 PCIe 4.0 NVMe - **Power Supply:** Antec 750 W 80 Plus Gold Semi Modular - **Liquid Cooling:** 360 mm Liquid Cooling - **Case:** Micronics Vulkano 6 ARGB Fans --- **The Problem:** Random TDR crashes from nvlddmkm: screen goes black, driver crashes, or system freezes completely. It happens under GPU load (games, rendering, AI tools). There's no blue screen, just crashes. The behavior is completely inconsistent: sometimes the system works fine for several hours, and the next day it won't even last 10 minutes. When it crashes, **visual artifacts often appear on the screen**, and then the system doesn't restart properly: it freezes on a black screen or gets stuck mid-reboot, and I have to **hold down the power button** to force it off. That's what worries me most. --- **What I've Tried:** - Clean driver reinstallation with DDU (multiple times) - Disabling HAGS and MPO via the registry - Increasing TdrDelay in the registry - **My Suspicions:** 1. **Intermittent GPU Fault:** — Artifacts and unexpected restarts after a crash point to a hardware issue. 2. **Power Supply Instability:** — The 750W Antec power supply might not be delivering clean power under the RTX 5070's maximum load. 3. **Compatibility Issues Between RTX 5000 Series and B650 Motherboards:** — I've seen reports of instability between RTX 5000 GPUs and B650 motherboards. Could this be a known issue? --- **Questions:** - Could a 750W power supply cause artifacts and unexpected restarts like this? Has anyone experienced completely random TDR failures: it works fine for hours and then the next day it's impossible to play? Has anyone with a B650 motherboard and an RTX 5000 series graphics card had this problem? Are there any solutions or workarounds? Are there any diagnostic tests to isolate the problem to the power supply, graphics card, or motherboard? I'm processing a warranty claim, but I want to understand what's failing. Thanks in advance. submitted by /u/trassh_s to r/pcmasterrace [link] [comments]",
-      "link": "https://www.reddit.com/r/pcmasterrace/comments/1sy125i/help_my_rtx_5070_keeps_crashing_nvlddmkm_tdr/",
-      "domain": "reddit.com",
-      "isVideo": false,
-      "isSelf": true,
-      "isNSFW": false,
-      "isSpoiler": false,
-      "isStickied": false,
-      "thumbnail": "",
-      "linkFlairText": "",
-      "totalAwards": 0,
-      "subredditSubscribers": 0,
-      "imageUrls": [],
-      "scrapedAt": "2026-10-20T10:24:19.914Z",
+      "scrapedAt": "2026-10-21T10:34:30.455Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. Awards, subscriber totals, and media metadata may also be unavailable or approximate."
       ]
