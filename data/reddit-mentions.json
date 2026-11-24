@@ -1,16 +1,47 @@
 {
-  "checkedAt": "2026-11-23T16:28:32Z",
+  "checkedAt": "2026-11-24T16:23:38Z",
   "mentions": [
+    {
+      "type": "post",
+      "id": "1y489as",
+      "title": "what if mercurial stacks block only multi hit skills?",
+      "author": "Alone_Donut139",
+      "subreddit": "RaidShadowLegends",
+      "score": 0,
+      "upvoteRatio": 0,
+      "numComments": 5,
+      "sourceCommentCount": 5,
+      "createdAt": "2026-11-24T08:44:26.405Z",
+      "url": "https://www.reddit.com/r/RaidShadowLegends/comments/1y489as/what_if_mercurial_stacks_block_only_multi_hit/",
+      "permalink": "https://www.reddit.com/r/RaidShadowLegends/comments/1y489as/what_if_mercurial_stacks_block_only_multi_hit/",
+      "selfText": "EDIT Title: what if mercurial stacks block only aoe attacks?\n\nokay first of all : mercurial was a mistake. the set is overtuned and just horrible for the meta. It completely removes certain champions from the game, while also creating boring and extended fights.\n\nPeople have been complaining since day one and not addressing it for a year is just a huge fuck up. However punishing people that invested in the set a year later by making it redundant is also wrong.\n\nI think the way to fix this is not by nerfing mercurial completely, but by bringing it in line with other sets, by giving it a clearly defined weakness (tho this is hard to do because mercurial is just so accessible.. even if its just as strong as stone skin/lethal most people would probably still run mercurial because its easier to get).\n\nI know others have suggested fear as an additional debuff (just like provoke) to bypass mercurial/prevent new stacks but what about changing/adjusting the buff itself.\n\nFor example by making it block only aoe attacks (the rest stays the same, including the way it blocks debuffs atm). This would instantly bring all single target champions back into the game because they bypass it directly. It would also give a clear path to introducing new champions if mercurial is still opressive. Things like Joans A1 in her alternate form already does this: \"Attacks all enemies. This attack deals single-target damage to each target individually, rather than AoE damage.\". There are other examples too like Kro’khad.\n\nAnyway this would hurt mercurial a lot while still retaining some of the advantages:\n\n- shutting/slowing down poison (nell), burn (vulkanos), bombs (komidus).this also keeps deflection relevant because these champs still might want to consider it (i guess this would require deflection to be changed a bit so the damage counts as aoe damage)\n\n- it gives us the 9pc bonus back at the start of a turn to prevent sheep\n\n- single target champions come back in full force\n\n- fights get shorter\n\n- the set becomes easer to balance because new champions can just have aoe attacks as single target.\n\nAnyway just a thought, i think the current nerf is the wrong direction. Allowing single target to bypass might be too much of a nerf too, but this means we can just buff other aspects of the set. If we have a clear weakness then the set becomes much easier to balance",
+      "link": "https://www.reddit.com/r/RaidShadowLegends/comments/1y489as/what_if_mercurial_stacks_block_only_multi_hit/",
+      "domain": "reddit.com",
+      "isVideo": false,
+      "isSelf": true,
+      "isNSFW": false,
+      "isSpoiler": false,
+      "isStickied": false,
+      "thumbnail": "",
+      "linkFlairText": "",
+      "totalAwards": 0,
+      "subredditSubscribers": null,
+      "imageUrls": [],
+      "scrapedAt": "2026-11-24T16:23:26.460Z",
+      "warnings": [
+        "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
+      ]
+    },
     {
       "type": "post",
       "id": "1y3fzpt",
       "title": "Ajuda monitores de estúdio. Edifier MR3 vs Vulkkano PRO4",
       "author": "BlackCat13_",
       "subreddit": "TecnologiaPT",
-      "score": 1,
+      "score": 2,
       "upvoteRatio": 0,
-      "numComments": 0,
-      "sourceCommentCount": 0,
+      "numComments": 1,
+      "sourceCommentCount": 1,
       "createdAt": "2026-11-23T11:31:15.833Z",
       "url": "https://www.reddit.com/r/TecnologiaPT/comments/1y3fzpt/ajuda_monitores_de_estúdio_edifier_mr3_vs/",
       "permalink": "https://www.reddit.com/r/TecnologiaPT/comments/1y3fzpt/ajuda_monitores_de_estúdio_edifier_mr3_vs/",
@@ -27,7 +58,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.758Z",
+      "scrapedAt": "2026-11-24T16:23:26.461Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -58,7 +89,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.758Z",
+      "scrapedAt": "2026-11-24T16:23:26.461Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -89,7 +120,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.759Z",
+      "scrapedAt": "2026-11-24T16:23:26.462Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -120,7 +151,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.759Z",
+      "scrapedAt": "2026-11-24T16:23:26.462Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -151,7 +182,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.759Z",
+      "scrapedAt": "2026-11-24T16:23:26.558Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -182,7 +213,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:17.760Z",
+      "scrapedAt": "2026-11-24T16:23:26.959Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -213,7 +244,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:18.410Z",
+      "scrapedAt": "2026-11-24T16:23:27.059Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -244,7 +275,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:18.411Z",
+      "scrapedAt": "2026-11-24T16:23:27.059Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -275,7 +306,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:18.411Z",
+      "scrapedAt": "2026-11-24T16:23:27.060Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -306,7 +337,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:18.411Z",
+      "scrapedAt": "2026-11-24T16:23:27.659Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -337,7 +368,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:19.017Z",
+      "scrapedAt": "2026-11-24T16:23:27.660Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -368,7 +399,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:19.018Z",
+      "scrapedAt": "2026-11-24T16:23:28.558Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -399,7 +430,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:20.701Z",
+      "scrapedAt": "2026-11-24T16:23:28.558Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -430,7 +461,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:20.800Z",
+      "scrapedAt": "2026-11-24T16:23:28.559Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -461,7 +492,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:21.904Z",
+      "scrapedAt": "2026-11-24T16:23:28.962Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -492,7 +523,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:21.904Z",
+      "scrapedAt": "2026-11-24T16:23:29.346Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -523,7 +554,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.005Z",
+      "scrapedAt": "2026-11-24T16:23:29.346Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -554,7 +585,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.005Z",
+      "scrapedAt": "2026-11-24T16:23:29.346Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -585,7 +616,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.005Z",
+      "scrapedAt": "2026-11-24T16:23:29.347Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -616,7 +647,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.006Z",
+      "scrapedAt": "2026-11-24T16:23:29.684Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -647,7 +678,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.751Z",
+      "scrapedAt": "2026-11-24T16:23:29.684Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -678,7 +709,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.751Z",
+      "scrapedAt": "2026-11-24T16:23:29.685Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
@@ -709,7 +740,7 @@
       "totalAwards": 0,
       "subredditSubscribers": null,
       "imageUrls": [],
-      "scrapedAt": "2026-11-23T16:28:23.751Z",
+      "scrapedAt": "2026-11-24T16:23:31.062Z",
       "warnings": [
         "Some fields are limited because Reddit restricts automated access. Score/upvoteRatio are best-effort and may be 0 when Reddit does not expose vote data publicly. subredditSubscribers is null because Reddit post feeds do not expose community size."
       ]
